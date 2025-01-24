@@ -1,0 +1,19 @@
+<ion-view class="pane" role="region">
+  <ion-header-bar role="heading" class="crn-ion-header-bar bar bar-default" xattr-theme="bar-default" data-component="crn-ion-header-bar" id="crn-ion-header-bar-home-logged">
+    <div class="buttons buttons-left header-item" data-component="crn-header-button" id="crn-header-button-1">
+      <button aria-labelledby="left_navicon_sr" class="button button-clear component-holder" menu-toggle="left">
+        <i class="icon ion-navicon"></i>
+        <span id="left_navicon_sr" class="sr-only">{{'Accessibility.Button.Aria.Label.NavIcon' | translate}}</span>
+      </button>
+    </div>
+    <h1 class="title" align-title="text-align: center;" style="text-align: center;">{{'Home.view.Home' | translate }}</h1>
+    <div aria-labelledby="right_navicon_sr" class="buttons buttons-right header-item" data-component="crn-header-button" id="crn-header-button-2">
+      <button class="button button-clear component-holder" menu-toggle="right">
+        <i class="icon ion-navicon"></i>
+        <span id="right_navicon_sr" class="sr-only">{{'Accessibility.Button.Aria.Label.NavIcon' | translate}}</span>
+      </button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="scroll-content has-header" data-component="crn-ion-content">
+  <div class="item item-input" data-component="crn-input" id="crn-input-335346"><input aria-label="Aria Label Text" id="crn-input3173" type="integer" placeholder="X" ng-model="vars.inputX" mask="" keyboard=""></div><div class="item item-input" data-component="crn-input" id="crn-input-1006449"><input aria-label="Aria Label Text" id="crn-input6545" type="integer" placeholder="Y" ng-model="vars.inputY" mask="" keyboard=""></div><div class="item item-input" data-component="crn-input" id="crn-input-333082"><input aria-label="Aria Label Text" id="crn-input2270" type="text" placeholder="" ng-model="vars.inputResult" mask="" keyboard=""></div><button class="button button-block button-default button-medium filled" type="submit" xattr-fullsize="button-block" xattr-theme="button-default" ng-click="cronapi.client('js.blockly.Bloco.Soma').names('34079902', 'f3c72f2b').run(vars.inputX, vars.inputY)" data-component="crn-button" xattr-size="button-medium" xattr-type="filled" id="crn-button-760226"><i class="" xattr-icon-theme=""></i> <span>Calcular</span></button></ion-content>
+</ion-view>

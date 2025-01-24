@@ -1,0 +1,93 @@
+{
+  "customId": "query161685",
+  "queryName": "Gerenciador de Pet",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Pet",
+  "entityFullName": "app.entity.Pet",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Pet",
+        "alias": "p",
+        "namespace": "app.entity.Pet"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "p"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onAuthorize": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "name": null,
+    "age": null,
+    "petshop": null,
+    "petshop_name": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "name": null,
+    "age": null,
+    "petshop": null,
+    "petshop_name": null
+  },
+  "security": {
+    "id": null,
+    "name": null,
+    "age": null,
+    "petshop": null,
+    "petshop_name": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query161685/",
+  "audit": false,
+  "swagger": true,
+  "library": false
+}

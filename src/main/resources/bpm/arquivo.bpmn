@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="definitions_b3a5de47-6879-4cf3-b386-c76b922653c1" targetNamespace="http://www.omg.org/spec/BPMN/20100524/MODEL">
+  <process id="process_54f00a71-3b09-4bde-aa4a-e9292d88c236" isExecutable="true">
+    <startEvent id="StartEvent_03febe4" />
+    <exclusiveGateway id="ExclusiveGateway_00zf244">
+      <incoming>SequenceFlow_0onw0qg</incoming>
+    </exclusiveGateway>
+    <task id="Task_1lodvci">
+      <outgoing>SequenceFlow_0onw0qg</outgoing>
+    </task>
+    <sequenceFlow id="SequenceFlow_0onw0qg" sourceRef="Task_1lodvci" targetRef="ExclusiveGateway_00zf244" />
+    <dataObjectReference id="DataObjectReference_0z69cww" dataObjectRef="DataObject_0yf2bt2" />
+    <dataObject id="DataObject_0yf2bt2" />
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_3dda4bd3-0af5-43eb-95d5-a54f30c87d14">
+    <bpmndi:BPMNPlane id="BPMNPlane_91afe81d-9bab-4267-9cda-2a10928c55ae" bpmnElement="process_54f00a71-3b09-4bde-aa4a-e9292d88c236">
+      <bpmndi:BPMNShape id="StartEvent_03febe4_di" bpmnElement="StartEvent_03febe4">
+        <dc:Bounds x="235" y="253" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ExclusiveGateway_00zf244_di" bpmnElement="ExclusiveGateway_00zf244" isMarkerVisible="true">
+        <dc:Bounds x="228" y="332" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_1lodvci_di" bpmnElement="Task_1lodvci">
+        <dc:Bounds x="203" y="425" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0onw0qg_di" bpmnElement="SequenceFlow_0onw0qg">
+        <di:waypoint x="253" y="425" />
+        <di:waypoint x="253" y="382" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="DataObjectReference_0z69cww_di" bpmnElement="DataObjectReference_0z69cww">
+        <dc:Bounds x="403" y="440" width="36" height="50" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>
